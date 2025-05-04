@@ -4,19 +4,9 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-    open-pull-requests-limit: 5
-    target-branch: "master"
-    commit-message:
-      prefix: "[upd] pypi:"
+      interval: "daily"
 
   - package-ecosystem: "npm"
-    directory: "/client/simple"
+    directory: "/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-    open-pull-requests-limit: 5
-    target-branch: "master"
-    commit-message:
-      prefix: "[upd] web-client (simple):"
+      interval: "daily"
